@@ -1,9 +1,12 @@
-@import "partials/_overide-bootstrap.scss";
-@import "../bootstrap/scss/bootstrap.scss";
+@import "theme-partials/_overide-bootstrap.scss";
+@import "bootstrap.scss";
 
 
 
 // custhom theme partials
-@import "partials/_animations.scss";
-@import "partials/_fonts.scss";
-@import "partials/_general.scss";
+@import "theme-partials/_fonts.scss";
+@import "theme-partials/_animations.scss";
+
+@import "theme-partials/_general.scss";
+@import "theme-partials/_base.scss";
+@import "theme-partials/_header.scss";
