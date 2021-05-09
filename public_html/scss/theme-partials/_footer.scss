@@ -1,0 +1,44 @@
+$social-text: #ECD9D9;
+
+footer{
+    margin-top: 67px;
+    padding: 46px 0 25px;
+}
+
+.social{
+    a{
+        color:$social-text;
+        font-size: 2.5rem;
+        transition: 1s linear;
+        margin: 0 30px;
+
+        &:hover{
+            transform: rotate(-360deg);
+        }
+    }
+}
+
+
+p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 12px;
+    letter-spacing: -0.17px;
+    line-height: 41px;
+    height: 34px;
+    color: #1E1E1E;
+
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+.copyright{
+    height: 34px;
+    color: #1E1E1E;
+    font-family: $lato;
+    font-size: 12px;
+    letter-spacing: -0.17px;
+    line-height: 41px;
+    text-align: center;
+}

@@ -10154,4 +10154,44 @@ header .navbar-nav a:hover {
   line-height: 23px;
 }
 
+footer {
+  margin-top: 67px;
+  padding: 46px 0 25px;
+}
+
+.social a {
+  color: #ECD9D9;
+  font-size: 2.5rem;
+  transition: 1s linear;
+  margin: 0 30px;
+}
+
+.social a:hover {
+  transform: rotate(-360deg);
+}
+
+p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+  letter-spacing: -0.17px;
+  line-height: 41px;
+  height: 34px;
+  color: #1E1E1E;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
+.copyright {
+  height: 34px;
+  color: #1E1E1E;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  letter-spacing: -0.17px;
+  line-height: 41px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=theme.css.map */
