@@ -1,0 +1,52 @@
+
+
+.professionals-title{
+    margin: 111px 0 54px;
+    padding: 10px;
+
+    &:hover{
+        border-bottom: 1px solid #ECD9D9;
+    }
+}
+
+.professionals-slider{
+    border: 1px solid #ECD9D9;
+}
+
+.professional-member-img{
+    padding: 54px 107px 54px 95px;
+}
+
+.professional-member-name{
+    margin: 85px 246px 35px 0;
+    text-transform: uppercase;
+    height: 27px;
+    width: 312px;
+    color: #1E1E1E;
+    font-family: $lato;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 27px;
+    border-bottom: none;
+    font-weight: 400;
+    text-align: left;
+
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+
+}
+
+.professional-member-info{
+    margin: 35px 190px 40px 0px;
+    text-align: justify;
+    width: 368px;
+    text-transform: none;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 23px;
+}
