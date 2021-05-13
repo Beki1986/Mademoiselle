@@ -1,7 +1,7 @@
 
 
 .lead-news-section{
-   
+
     h2{
         margin-top: 75px;
         text-transform: uppercase;
@@ -20,12 +20,19 @@
 
     .news-item-description{
         background-color: #FFFFFF;
+        position: relative;
+        margin-top: -81px;
+        height: 161px;
+        width: 313px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 22px 0 57px;
     }
 
 
 
     h4{
-        margin-top: 22px;
         height: 17px;
         color: #1E1E1E;
         font-size: 14px;
@@ -38,6 +45,7 @@
         margin-bottom: 17px;
     }
     p{
+        padding: 0 18px 0 19px;
         text-transform: uppercase;
         height: 48px;
         font-weight: 500;

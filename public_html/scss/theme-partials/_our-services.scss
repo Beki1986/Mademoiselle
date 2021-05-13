@@ -20,8 +20,22 @@
         letter-spacing: 0;
         line-height: 44px;
 
+        p{
+            margin-left: auto;
+            margin-right: auto;
+            height: 132px;
+            width: 368px;
+            color: #1E1E1E;
+            font-size: 36px;
+            letter-spacing: 0;
+            line-height: 44px;
+            text-transform: uppercase;
+            text-align: left;
+            font-weight: 400;
+        }
+
         .service-button-1{
-            margin-top: 36px;
+            margin-left: 20px;
             padding: 13px 36px 15px;
             border: 1px solid #1E1E1E;
             color: #1E1E1E;
@@ -38,9 +52,25 @@
         padding: 143px 83px 0px;
         background-color: #ECD9D9;
         text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+
+        p{
+            margin-left: auto;
+            margin-right: auto;
+            height: 132px;
+            width: 368px;
+            color: #1E1E1E;
+            font-size: 36px;
+            letter-spacing: 0;
+            line-height: 44px;
+            text-transform: uppercase;
+            text-align: left;
+            font-weight: 400;
+        }
 
         .service-button-2{
-            margin-top: 36px;
+            margin-left: 18px;
             padding: 13px 36px 15px;
             border: 1px solid #1E1E1E;
             color: #1E1E1E;

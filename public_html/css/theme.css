@@ -80,6 +80,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+  letter-spacing: -0.17px;
+  line-height: 41px;
+  height: 34px;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -9984,19 +9990,18 @@ header .navbar-nav a:hover {
   position: relative;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  height: 640px;
+  width: 1602px;
 }
 
 .lead-page-section .lead-section-title {
-  margin: 0;
-  padding: 0;
-  position: absolute;
+  padding: 218px 0 269px 0;
   display: flex;
   height: 100%;
   width: 100%;
   color: #FFFFFF;
-  top: 0;
-  left: 0;
+  top: 218px;
+  left: 269px;
   font-size: 60px;
   font-weight: 300;
   letter-spacing: 20px;
@@ -10025,10 +10030,17 @@ header .navbar-nav a:hover {
 
 .lead-news-section .news-item-description {
   background-color: #FFFFFF;
+  position: relative;
+  margin-top: -81px;
+  height: 161px;
+  width: 313px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 22px 0 57px;
 }
 
 .lead-news-section h4 {
-  margin-top: 22px;
   height: 17px;
   color: #1E1E1E;
   font-size: 14px;
@@ -10042,6 +10054,7 @@ header .navbar-nav a:hover {
 }
 
 .lead-news-section p {
+  padding: 0 18px 0 19px;
   text-transform: uppercase;
   height: 48px;
   font-weight: 500;
@@ -10070,8 +10083,22 @@ header .navbar-nav a:hover {
   line-height: 44px;
 }
 
+.service-section .service-item-1 p {
+  margin-left: auto;
+  margin-right: auto;
+  height: 132px;
+  width: 368px;
+  color: #1E1E1E;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 44px;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 400;
+}
+
 .service-section .service-item-1 .service-button-1 {
-  margin-top: 36px;
+  margin-left: 20px;
   padding: 13px 36px 15px;
   border: 1px solid #1E1E1E;
   color: #1E1E1E;
@@ -10086,10 +10113,26 @@ header .navbar-nav a:hover {
   padding: 143px 83px 0px;
   background-color: #ECD9D9;
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-section .service-item-2 p {
+  margin-left: auto;
+  margin-right: auto;
+  height: 132px;
+  width: 368px;
+  color: #1E1E1E;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 44px;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 400;
 }
 
 .service-section .service-item-2 .service-button-2 {
-  margin-top: 36px;
+  margin-left: 18px;
   padding: 13px 36px 15px;
   border: 1px solid #1E1E1E;
   color: #1E1E1E;
@@ -10171,6 +10214,12 @@ footer {
 }
 
 p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+  letter-spacing: -0.17px;
+  line-height: 41px;
+  height: 34px;
   color: #1E1E1E;
 }
 

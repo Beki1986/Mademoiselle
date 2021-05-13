@@ -1,24 +1,22 @@
 
 
 .lead-page-section{
-    
     width: 100vw;
     height: 100vh;
     position: relative;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    
+    height: 640px;
+    width: 1602px;
+
     .lead-section-title{
-        margin: 0;
-        padding: 0;
-        position: absolute;
+        padding: 218px 0 269px 0;
         display: flex;
         height: 100%;
         width: 100%;
         color: #FFFFFF;
-        top: 0;
-        left: 0;
+        top: 218px;
+        left: 269px;
         font-size: 60px;
         font-weight: 300;
         letter-spacing: 20px;

@@ -3,8 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/danie/OneDrive/Desktop/workplace/Mademoiselle/public_html/index.html</file>
             <file>file:/C:/Users/danie/OneDrive/Desktop/workplace/Mademoiselle/public_html/scss/theme-partials/_our-services.scss</file>
+=======
+            <file>file:/C:/Users/Beki/Desktop/workplace/Mademoiselle/public_html/scss/theme-partials/_our-services.scss</file>
+            <file>file:/C:/Users/Beki/Desktop/workplace/Mademoiselle/public_html/index.html</file>
+>>>>>>> 0ae37b3 (Frontpage finished)
         </group>
     </open-files>
 </project-private>
