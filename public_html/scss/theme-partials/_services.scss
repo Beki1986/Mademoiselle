@@ -1,0 +1,36 @@
+
+.services-page-section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 640px;
+    width: 1602px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    .services-section-title{
+        padding: 283px 0 284px 0;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        color: #FFFFFF;
+        top: 218px;
+        left: 269px;
+        font-size: 60px;
+        font-weight: 300;
+        letter-spacing: 20px;
+        line-height: 84px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.service-section{
+    margin-top: 91px;
+}

@@ -1,0 +1,103 @@
+
+
+.contact-form{
+    margin-top: 102px;
+
+    h2{
+        height: 121px;
+        width: 500px;
+        color: #1E1E1E;
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        line-height: 45px;
+        text-align: left !important;
+        margin-bottom: 11px !important;
+        text-transform: uppercase;
+    }
+}
+
+.contact-map{
+    margin-top: 104px;
+}
+
+.form-control{
+    background-color: transparent;
+    outline-color: transparent;
+    border: transparent;
+    margin-bottom: 19px;
+}
+
+.contact-btn{
+    color: #1E1E1E;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+    text-align: center;
+    height: 45px;
+    width: 172px;
+    border: 1px solid #1E1E1E;
+    margin-bottom: 110px;
+}
+
+.contact-map{
+    height: 561px;
+    width: 699px;
+    opacity: 0.45;
+    background-color: #ECD9D9;
+    margin-right: auto;
+
+    .embed-responsive{
+        position: absolute;
+        height: 561px;
+        width: 699px;
+    }
+}
+
+.mademoiselle-lead-section{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 63px;
+    height: 255px;
+    width: 1600px;
+    background-color: #ECD9D9;
+}
+
+.mademoiselle-contact-section-content{
+    .info-address{
+        margin-left: auto;
+        margin-right: auto;
+        width: 468px;
+        color: #1E1E1E;
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 25px;
+        text-align: center;
+    }
+    .info-phone{
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 468px;
+        color: #1E1E1E;
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 25px;
+        text-align: center;
+    }
+    .info-email{
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 468px;
+        color: #1E1E1E;
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 25px;
+        text-align: center;
+        text-transform: none;
+    }
+}

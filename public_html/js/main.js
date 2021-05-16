@@ -37,4 +37,28 @@ $(document).ready(function(){
         
     }
     
+    //blog-slider
+    
+    if($('.blog-slider').length > 0){
+        $(".blog-slider").owlCarousel({
+            autoplay:true,
+            autoplayTimeout:10000,
+            dots:true,
+            dotsData:true,
+            loop:true,
+            nav:true,
+            items:3,
+          
+            
+            responsive:{
+                0:{
+                    items:1,
+                    padding:0
+                }
+            }
+            
+        });
+        
+    }
+    
 });

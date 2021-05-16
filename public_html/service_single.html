@@ -6,11 +6,186 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Mademoiselle</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Berlovan Daniel">
+        <meta name="description" content="Mademoiselle beauty salon">
+        <meta name="keywords" content="Mademoiselle,beauty,good_look,hair,nails,skin">
+
+
+        <!--ios compatibility-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Mademoiselle">
+        <link rel="apple-touch-icon" href="apple-icon-144x144.png">
+
+
+        <!--Android compatibility-->
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Mademoiselle">
+        <link rel="icon" type="image/png" href="android-icon-192x192.png">
+
+
+        <!--CSS FILES-->
+        <link href="css/fonts/font.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+        <link href="css/theme.css" rel="stylesheet" type="text/css"/>
+
+
+
     </head>
     <body>
-        <div>TODO write content</div>
+        <!--header start-->
+        <header class="fixed-top bg-white py-2 py-xl-4">
+            <!--container start-->
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt=""/>
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">ABOUT <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="services.html">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">CONTACT</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div><!--container end-->
+        </header><!--header end-->
+
+        <!--main start-->
+        <main>
+            <section class="service-single-section">
+                <div class="container d-flex-r">
+                    <div class="services justify-content-between">
+                        <!--row (image - text)-->
+                        <article class="d-flex-r row">
+                            <!-- First half for image-->
+                            <div class="service-picture p-0 w-50 col-12 col-xl-6">
+                                <img src="img/services_section/hair.png" alt=""/>
+                            </div><!--.service-picture end-->
+                            <!--Second half for text-->
+                            <div class="service-item-2 w-50 col-12 col-xl-6">
+                                <p class="service-section-title"> male and female haircut</p>
+                                <p class="service-section-text">
+                                    Contrary to popular belief, Lorem Ipsum is not simply
+                                    random text. It has roots in a piece of classical Latin
+                                    literature from 45 BC, making it over 2000 years old.
+                                    Richard McClintock, a Latin professor at Hampden-Sydney
+                                    College in Virginia, looked up one of the more obscure
+                                    Latin words, consectetur, from a Lorem Ipsum passage, and
+                                    going through the cites of the word in classical literature,
+                                    discovered the undoubtable source. Lorem Ipsum comes
+                                    from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum
+                                    et Malorum" (The Extremes of Good and Evil) by Cicero,
+                                    written in 45 BC. This book is a treatise on the theory of
+                                    ethics, very popular during the Renaissance. The first line of
+                                    Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a
+                                    line in section 1.10.32.
+                                </p>
+                            </div><!--.service-item end-->
+                        </article><!-- Second row (image - text) end-->
+                    </div><!--.services end-->
+                </div><!--.container end-->
+            </section><!--.service-section end-->
+
+            <section class="lead-news-section">
+                <div class="container">
+                    <article>
+                        <h2>Stay Up with the Latest Beauty Trends</h2>
+                        <div class="row news-menu">
+                            <div class="col-12 col-lg-4 col-xl-4">
+                                <article class="news-item">
+                                    <figure class="position-relative">
+                                        <a href="blog_single.html" class="d-block">
+                                            <img src="img/home_section/josh-calabrese-eye.png" alt=""/>
+                                        </a>
+                                    </figure>
+                                    <div class="news-item-description">
+                                        <h4>04/17/2019</h4>
+                                        <p>Cosmetic Surgery Restores
+                                            <br>
+                                           Normal Structures Of The Body</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-lg-4 col-xl-4">
+                                <article class="news-item">
+                                    <figure class="position-relative">
+                                        <a href="blog_single.html" class="d-block">
+                                            <img src="img/home_section/josh-calabrese-brushes.png" alt=""/>
+                                        </a>
+                                    </figure>
+                                    <div class="news-item-description">
+                                        <h4>12/22/2019</h4>
+                                        <p>Tips For Choosing The Perfect
+                                            <br>
+                                            Gloss For Your Lips</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-lg-4 col-xl-4">
+                                <article class="news-item">
+                                    <figure class="position-relative">
+                                        <a href="blog_single.html" class="d-block">
+                                            <img src="img/home_section/josh-calabrese-spray.png" alt=""/>
+                                        </a>
+                                    </figure>
+                                    <div class="news-item-description">
+                                        <h4>11/10/2019</h4>
+                                        <p>The 6 Step Non Surgical Facial
+                                            <br>
+                                            Rejuvenation Program</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div><!--news-menu end-->
+                    </article><!--article end-->
+                </div><!--container end-->
+            </section><!--lead-news-section end-->
+
+        </main><!--main end-->
+
+        <footer class="bg-white">
+            <div class="container text-center">
+                <nav class="social">
+                    <a href="https://facebook.com" class="fab fa-facebook-f mr-2"></a>
+                    <a href="https://twitter.com" class="fab fa-twitter mr-2"></a>
+                    <a href="https://instagram.com" class="fab fa-instagram"></a>
+                </nav>
+                <p class="copyright">Copyright &copy; 2019 <a href="index.html">Mademoiselle</a></p>
+            </div>
+        </footer><!--footer end-->
+
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+        <!--font awesome icons-->
+        <script src="https://kit.fontawesome.com/85bd05dd45.js"></script>
+
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>

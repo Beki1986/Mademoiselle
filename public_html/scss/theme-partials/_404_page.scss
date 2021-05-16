@@ -1,0 +1,46 @@
+
+
+.error-page-section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1602px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+    .error-section-title{
+        padding-top: 277px;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        color: #FFFFFF;
+        top: 218px;
+        left: 269px;
+        font-size: 60px;
+        font-weight: 300;
+        letter-spacing: 20px;
+        line-height: 84px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.error-button{
+    background: transparent;
+    text-align: center;
+    height: 45px;
+    width: 172px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+    font-weight: 400;
+    font-family: $lato;
+}

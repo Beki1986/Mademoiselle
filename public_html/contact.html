@@ -6,11 +6,160 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Mademoiselle</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Berlovan Daniel">
+        <meta name="description" content="Mademoiselle beauty salon">
+        <meta name="keywords" content="Mademoiselle,beauty,good_look,hair,nails,skin">
+
+
+        <!--ios compatibility-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Mademoiselle">
+        <link rel="apple-touch-icon" href="apple-icon-144x144.png">
+
+
+        <!--Android compatibility-->
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Mademoiselle">
+        <link rel="icon" type="image/png" href="android-icon-192x192.png">
+
+
+        <!--CSS FILES-->
+        <link href="css/fonts/font.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+        <link href="css/theme.css" rel="stylesheet" type="text/css"/>
+
+
+
     </head>
     <body>
-        <div>TODO write content</div>
+        <!--header start-->
+        <header class="fixed-top bg-white py-2 py-xl-4">
+            <!--container start-->
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt=""/>
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">CONTACT</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div><!--container end-->
+        </header><!--header end-->
+
+        <!--main start-->
+        <main>
+            <section class="mademoiselle-contact-section">
+                <div class="container d-flex-r">
+                    <div class="contact-list justify-content-between">
+                        <!--row (form - map)-->
+                        <article class="d-flex-r row ">
+                            <!--First half for form-->
+                            <div class="contact-form w-50 col-12 col-xl-6">
+                                <h2 class="text-center mb-5">Please contact us using the form bellow</h2>
+
+                                <form class="contact-form-groups" action="" method="get">
+                                    <div class='form-group'>
+                                        <input type="text" name="name" value="" class="form-control" placeholder='Name and surname *'> 
+                                        <div class="error-msg"></div>
+                                    </div>
+                                    <div class='form-group'>
+                                        <input type="email" name="email" value="" class="form-control" placeholder='Email address *'> 
+                                        <div class="error-msg"></div>
+                                    </div> 
+                                    <div class='form-group'>
+                                        <input type="text" name="subject" value="" class="form-control" placeholder='Subject *'> 
+                                        <div class="error-msg"></div>
+                                    </div>
+                                    <div class='form-group'>
+                                        <textarea name="message" placeholder="Enter your message *" class="form-control" rows='7'></textarea>
+                                        <div class="error-msg"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn contact-btn text-uppercase" type="submit" name="send" value="true">send message</button>
+                                    </div>
+                                </form>
+                            </div><!--contact-form end-->
+                            <!-- Second half for map-->
+                            <div class="contact-map w-50 col-12 col-xl-6">
+                                <div class="embed-responsive embed-responsive-21by9">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6625.993100209249!2d151.1973995916691!3d-33.86397978401416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssr!2srs!4v1621132076588!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+            </section><!--.mademoiselle-contact-section end-->
+
+
+
+            <section class="mademoiselle-page-section mademoiselle-lead-section" style="background-color: #ECD9D9;">
+
+                <div class="container">
+                    <article class="mademoiselle-contact-section-content">
+
+                        <p class="info-address">
+                            146 Douglas Dale Suite 343
+                        </p>
+                        <p class="info-phone">
+                            <a href="tel:560-748-5959">560-748-5959</a>
+                        </p>
+                        <p class="info-email">
+                            <a href="mailto:cullen_mueller@yahoo.com">cullen_mueller@yahoo.com</a>
+                        </p>
+                    </article>
+                </div>
+            </section>
+        </main><!--main end-->
+
+
+
+
+        <footer class="bg-white">
+            <div class="container text-center">
+                <nav class="social">
+                    <a href="https://facebook.com" class="fab fa-facebook-f mr-2"></a>
+                    <a href="https://twitter.com" class="fab fa-twitter mr-2"></a>
+                    <a href="https://instagram.com" class="fab fa-instagram"></a>
+                </nav>
+                <p class="copyright">Copyright &copy; 2019 <a href="index.html">Mademoiselle</a></p>
+            </div>
+        </footer><!--footer end-->
+
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+        <!--font awesome icons-->
+        <script src="https://kit.fontawesome.com/85bd05dd45.js"></script>
+
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>
